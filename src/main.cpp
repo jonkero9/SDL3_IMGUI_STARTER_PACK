@@ -11,7 +11,7 @@ auto init(SDL_Window **window, SDL_Renderer **renderer) -> auto {
   }
 
   bool success = SDL_CreateWindowAndRenderer(
-      "Jbattles", 600, 500, SDL_WINDOW_RESIZABLE, window, renderer);
+      "SDL_STARTER_PACK", 600, 500, SDL_WINDOW_RESIZABLE, window, renderer);
 
   if (success == false) {
     SDL_Log("errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr");
